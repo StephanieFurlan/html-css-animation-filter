@@ -112,3 +112,28 @@
 .ex-5-square:active {
    transform: scale(0.5);
 }
+
+/* Esercizio 6 */
+.ex-6-img {
+   transition: filter 3s;
+}
+.ex-6-img:hover {
+   filter: grayscale(100%);
+}
+
+/* Esercizio 7 */
+.ex-7-img {
+   transition: filter 3s;
+}
+.ex-7-img:hover {
+   filter: sepia(50%) grayscale(100%);
+}
+
+/* Esercizio 8 */
+.ex-8-img {
+   transition: filter 3s, border-radius 3s;
+}
+.ex-8-img:hover {
+   filter: sepia(50%) brightness(70%);
+   border-radius: 20px;
+}
